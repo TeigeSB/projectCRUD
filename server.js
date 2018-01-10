@@ -8,8 +8,6 @@ const MongoClient = require('mongodb').MongoClient
 app.use(bodyParser.urlencoded({extended: true}))
 app.set('view engine', 'ejs')
 
-
-
 var db
 
 MongoClient.connect('mongodb://teige:Berkeley1@ds133136.mlab.com:33136/computerscience', (err,
